@@ -14,7 +14,7 @@ if operator == '+':
     print(f'Hasil Dari Penjumlahan Tersebut Adalah : {hasil}')
     print(f'Terima Kasih Telah Memakai Kalkulatornya :) ')
 elif operator == 'x':
-    hasil1 = angka1 - angka2
+    hasil1 = angka1 * angka2
     print(f'Hasil Dari Pengurangan Tersebut Adalah : {hasil1}')
     print(f'Terima Kasih Telah Memakai Kalkulatornya :) ')
 elif operator =='%':
@@ -29,8 +29,8 @@ elif operator == '//':
     hasil4 = angka1 // angka2
     print(f'Hasil Dari Floor Division Tersebut Adalah : {hasil4}')
     print(f'Terima Kasih Telah Memakai Kalkulatornya :) ')
-elif operator =='x':
-    hasil5 = angka1 * angka2
+elif operator =='-':
+    hasil5 = angka1 - angka2
     print(f'Hasil Dari Perkalian Tersebut Adalah : {hasil5}')
     print(f'Terima Kasih Telah Memakai Kalkulatornya :) ')
 
